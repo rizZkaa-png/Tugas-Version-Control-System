@@ -10,6 +10,33 @@ def mulai_game_baru():
     hasil_label.config(text="")  
     entry_tebakan.delete(0, tk.END)
 
+def cek_tebakan():
+    global percobaan_tersisa, game_over
+    if game_over:  
+        info_label.config(text="Game sudah selesai. Tekan Reset untuk mulai lagi.")
+        return
+
+    try:
+        tebakan = int(entry_tebakan.get())
+    except ValueError:
+        info_label.config(text="Masukkan angka yang valid!")
+        return
+
+    percobaan_tersisa -= 1
+    percobaan_label.config(text=f"Sisa percobaan: {percobaan_tersisa}")
+
+    if tebakan < angka_rahasia:
+        info_label.config(text="Terlalu kecil! Coba lagi.")
+    elif tebakan > angka_rahasia:
+        info_label.config(text="Terlalu besar! Coba lagi.")
+    else:
+        hasil_label.config(text=f"🎉 Tebakan benar! Angkanya adalah {angka_rahasia}.")
+        game_over = True
+        return
+
+    if percobaan_tersisa == 0:
+        hasil_label.config(text=f"😢 Game Over! Angkanya adalah {angka_rahasia}.")
+        game_over = True
 
 #Program Utama
 mulai_game_baru()
