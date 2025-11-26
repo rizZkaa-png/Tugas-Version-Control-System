@@ -67,3 +67,5 @@ hasil_label.pack(pady=10)
 
 #Program Utama
 mulai_game_baru()
+
+root.mainloop()
