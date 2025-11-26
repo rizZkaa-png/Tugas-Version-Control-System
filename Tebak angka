@@ -1,0 +1,15 @@
+import random
+
+def mulai_game_baru():
+    global angka_rahasia, percobaan_tersisa, game_over
+    angka_rahasia = random.randint(1, 100)
+    percobaan_tersisa = 5
+    game_over = False
+    info_label.config(text="Tebak angka 1 - 100")
+    percobaan_label.config(text=f"Sisa percobaan: {percobaan_tersisa}")
+    hasil_label.config(text="")  
+    entry_tebakan.delete(0, tk.END)
+
+
+#Program Utama
+mulai_game_baru()
