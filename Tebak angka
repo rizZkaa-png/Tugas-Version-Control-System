@@ -1,3 +1,4 @@
+import tkinter as tk
 import random
 
 def mulai_game_baru():
@@ -37,6 +38,33 @@ def cek_tebakan():
     if percobaan_tersisa == 0:
         hasil_label.config(text=f"😢 Game Over! Angkanya adalah {angka_rahasia}.")
         game_over = True
+
+# ----- UI TKINTER -----
+root = tk.Tk()
+root.title("Game Tebak Angka")
+root.geometry("350x320")
+
+judul = tk.Label(root, text="TEBAK ANGKA", font=("Arial", 22, "bold"))
+judul.pack(pady=10)
+
+info_label = tk.Label(root, text="Tebak angka 1 - 100", font=("Arial", 14))
+info_label.pack(pady=5)
+
+percobaan_label = tk.Label(root, text="Sisa percobaan: 5", font=("Arial", 12), fg="red")
+percobaan_label.pack(pady=5)
+
+entry_tebakan = tk.Entry(root, font=("Arial", 14), justify="center")
+entry_tebakan.pack(pady=10)
+
+btn_tebak = tk.Button(root, text="Tebak!", font=("Arial", 14), command=cek_tebakan)
+btn_tebak.pack(pady=5)
+
+btn_reset = tk.Button(root, text="Reset Game", font=("Arial", 12), command=mulai_game_baru)
+btn_reset.pack(pady=5)
+
+# Label untuk hasil akhir (jawaban benar / game over)
+hasil_label = tk.Label(root, text="", font=("Arial", 12), fg="blue")
+hasil_label.pack(pady=10)
 
 #Program Utama
 mulai_game_baru()
