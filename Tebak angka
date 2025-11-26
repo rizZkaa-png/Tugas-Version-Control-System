@@ -39,7 +39,6 @@ def cek_tebakan():
         hasil_label.config(text=f"😢 Game Over! Angkanya adalah {angka_rahasia}.")
         game_over = True
 
-# ----- UI TKINTER -----
 root = tk.Tk()
 root.title("Game Tebak Angka")
 root.geometry("350x320")
