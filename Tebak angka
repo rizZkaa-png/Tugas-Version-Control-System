@@ -1,6 +1,7 @@
 import tkinter as tk
 import random
 
+#Logika Game
 def mulai_game_baru():
     global angka_rahasia, percobaan_tersisa, game_over
     angka_rahasia = random.randint(1, 100)
@@ -39,6 +40,7 @@ def cek_tebakan():
         hasil_label.config(text=f"😢 Game Over! Angkanya adalah {angka_rahasia}.")
         game_over = True
 
+#UI game
 root = tk.Tk()
 root.title("Game Tebak Angka")
 root.geometry("350x320")
@@ -67,3 +69,5 @@ hasil_label.pack(pady=10)
 
 #Program Utama
 mulai_game_baru()
+
+root.mainloop()
