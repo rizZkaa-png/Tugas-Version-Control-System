@@ -6,6 +6,13 @@ Selamat datang di **Tugas Dokumentasi Program**, repo ini berisi dokumentasi pro
 ## Pendahuluan
 
 ## Fitur utama
+* Tampilan *Antamuka GUI* yang interaktif menggunakan Tkinter
+* Menggunakan Library Rich untuk membuat pesan lebih berwarna
+* Membuat angka rahasia secara otomatis
+* Kesempatan yang diberikan *hanya 5 kali*
+* Memberikan feedback kepada angka tebakan user
+* Memunculkan *notifikasi* saat permainan berakhir
+* Pemain bisa memulai ulang permainan setelah selesai
 
 ## Requirements
 - [python](https://www.python.org/downloads/release/python-3140/) 
