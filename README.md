@@ -4,6 +4,8 @@
 Selamat datang di **Tugas Dokumentasi Program**, repo ini berisi dokumentasi program oleh kelompok kami!
 
 ## Pendahuluan
+Brain Digits adalah program sederhana yang dibuat untuk melatih logika. Program ini dibuat untuk  mengembangkan kreativitas, melatih kesabaran, serta kemampuan berpikir secara kritis dan sistematis.
+Game Brain Digits ini merupakan game tebak angka menggunakan bahasa python dengan tampilan _Graphical User Interface_ (GUI). Menggunakan Tkinter dan Library Rich. Secara acak akan dipilih angka rahasia lalu pemain menebak angka rahasia dengan jumlah kesempatan terbatas.
 
 ## Fitur utama
 * Tampilan *Antamuka GUI* yang interaktif menggunakan Tkinter
