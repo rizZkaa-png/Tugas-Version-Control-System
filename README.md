@@ -33,5 +33,13 @@ Penjelasan :
 
 ## Daftar Kontributor :
 
+## Daftar Kontributor :
+
+| Nama Kontributor | NIM | Link Akun |
+|-----------------------|-------|----|
+| Preysli Candy Injili Makalew | 250211060026 | ([PreysliMakalew](https://github.com/PreysliMakalew)) |
+| Sharen Charity Tampilang | 250211060074 | ([sharen121233](https://github.com/sharen121233)) |
+| Rizka Az Zahra Rotty (Maintainer) | 250211060124 | ([rizZkaa-png](https://github.com/rizZkaa-png))|
+
 ## Lisensi
 Repo ini dibuat untuk pemenuhan tugas pengenalan pemrograman topik 7 : Tugas dokumentasi kode
