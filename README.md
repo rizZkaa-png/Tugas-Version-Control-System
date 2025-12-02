@@ -27,6 +27,10 @@ git clone https://github.com/rizZkaa-png/Tugas-Version-Control-System.git
 ```bash
  cd Tugas-Version-Control-System
 ```
+## Panduan menjalankan
+```bash
+python 'Tebak angka.py'
+```
 
 ## Dokumentasi teknis
 Penjelasan :
