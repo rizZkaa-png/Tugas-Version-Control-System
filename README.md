@@ -42,9 +42,8 @@ python 'Tebak angka.py'
 ```
 
 ## Dokumentasi teknis
+<img width="752" height="651" alt="Image" src="https://github.com/user-attachments/assets/fa5ae1ae-6692-42dc-a30d-5d63bc5035a2" />
 Penjelasan :
-
-## Daftar Kontributor :
 
 ## Daftar Kontributor :
 
