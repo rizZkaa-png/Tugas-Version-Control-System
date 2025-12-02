@@ -18,8 +18,7 @@ pip install tkinter
 pip install rich
 ```
 
-## Panduan Instalasi 
-- [python](https://www.python.org/downloads/release/python-3140/) 
+## Panduan Instalasi  
 - Clone repo
 ```bash
 git clone https://github.com/rizZkaa-png/Tugas-Version-Control-System.git
