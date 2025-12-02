@@ -44,7 +44,9 @@ python 'Tebak angka.py'
 ## Dokumentasi teknis
 <img width="751" height="671" alt="Image" src="https://github.com/user-attachments/assets/90559df8-6aa8-4acc-8c0f-80fec4d4887f" />
 
-Penjelasan :  Game tebak angka bekerja berdasarkan alur yang ditampilkan pada flowchart di atas. Saat permainan dimulai, sistem terlebih dahulu menentukan angka rahasia secara acak. Pemain diminta memasukkan angka tebakan pertama.
+
+Penjelasan :  
+Game tebak angka bekerja berdasarkan alur yang ditampilkan pada flowchart di atas. Saat permainan dimulai, sistem terlebih dahulu menentukan angka rahasia secara acak. Pemain diminta memasukkan angka tebakan pertama.
 1. Pemain memasukkan tebakan
 Sistem mengecek apakah tebakan tersebut benar.
 2. Jika tebakan benar → tampilkan “Anda Menang”
