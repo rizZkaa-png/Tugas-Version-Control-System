@@ -43,7 +43,19 @@ python 'Tebak angka.py'
 
 ## Dokumentasi teknis
 <img width="752" height="651" alt="Image" src="https://github.com/user-attachments/assets/fa5ae1ae-6692-42dc-a30d-5d63bc5035a2" />
-Penjelasan :
+
+Penjelasan :  Game tebak angka bekerja berdasarkan alur yang ditampilkan pada flowchart di atas. Saat permainan dimulai, sistem terlebih dahulu menentukan angka rahasia secara acak. Pemain diminta memasukkan angka tebakan pertama.
+1. Pemain memasukkan tebakan
+Sistem mengecek apakah tebakan tersebut benar.
+2. Jika tebakan benar → tampilkan “Anda Menang”
+Permainan langsung berakhir.
+3. Jika tebakan salah → kesempatan dikurangi 1
+Setelah itu, sistem mengecek kembali apakah kesempatan masih tersisa.
+4. Jika masih ada kesempatan
+Pemain dapat melakukan tebakan berikutnya, dan proses kembali ke langkah awal.
+5. Jika kesempatan habis → tampilkan “Anda Kalah”
+Permainan berakhir.
+Dengan demikian, permainan akan terus berulang sampai pemain berhasil menebak angka dengan benar, atau kehabisan kesempatan.
 
 ## Daftar Kontributor :
 
