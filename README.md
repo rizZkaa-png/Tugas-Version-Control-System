@@ -42,7 +42,7 @@ python 'Tebak angka.py'
 ```
 
 ## Dokumentasi teknis
-<img width="752" height="651" alt="Image" src="https://github.com/user-attachments/assets/fa5ae1ae-6692-42dc-a30d-5d63bc5035a2" />
+<img width="751" height="671" alt="Image" src="https://github.com/user-attachments/assets/90559df8-6aa8-4acc-8c0f-80fec4d4887f" />
 
 Penjelasan :  Game tebak angka bekerja berdasarkan alur yang ditampilkan pada flowchart di atas. Saat permainan dimulai, sistem terlebih dahulu menentukan angka rahasia secara acak. Pemain diminta memasukkan angka tebakan pertama.
 1. Pemain memasukkan tebakan
